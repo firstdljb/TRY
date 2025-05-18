@@ -9,7 +9,7 @@ async function GetIpInfo() {
   await GetIpI();
   const accesskey = "8a2a1391ca614a8d5dfb90056a9ac8e4";
   let IP = document.getElementById("TheIp").innerText;
-  const targetUrl = `http://api.ipstack.com/${IP}?access_key=${accesskey}`;
+  const targetUrl = `https://api.ipstack.com/${IP}?access_key=${accesskey}`;
   let res = await fetch(targetUrl);
   let data = await res.json();
   console.log(data);
