@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bubbler+One&family=Bungee+Hairline&family=Jacquard+24&family=Londrina+Shadow&family=Phudu:wght@300..900&family=Tektur:wght@400..900&display=swap");
+
+* {
+  font-family: Tektur;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  letter-spacing: 3px;
+  color: white;
+}
+body {
+  height: 100vh;
+  background: rgb(0, 0, 0);
+}
+
+#TheCoutryFlag {
+  width: 400px;
+  border-radius: 10px;
+  height: 210px;
+  top: 30%;
+}
+
+#TheIp::before {
+  content: "IP : ";
+}
+#Thesymbol::before {
+  content: "symbol : ";
+}
+#Thesymbol {
+    top : 86%;
+}
+#TheCallCode::before {
+  content: "Call Code : +";
+}
+#TheCallCode {
+  top: 82%;
+}
+#TheLatNLoa::before {
+  content: "Lat & Lon : ";
+}
+#TheLang::before {
+  content: "Language : ";
+}
+#TheLang {
+  top: 78%;
+}
+#TheLatNLoa {
+  top: 74%;
+}
+#TheIp {
+  top: 70%;
+}
+
+.CT {
+  text-transform: capitalize;
+}
+
+.Center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#locationgChain {
+  top: 58%;
+  font-size: 40px;
+  white-space:  nowrap;
+}
+
+.HOPC {
+    opacity: .3;
+}
